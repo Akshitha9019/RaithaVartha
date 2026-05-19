@@ -1,0 +1,504 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R ] /Count 20 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 557 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (RAITHA-VARTA) Tj
+/F1 11 Tf
+72 706 Td (Android App Development using GenAI for Agriculture) Tj
+72 683 Td (PROJECT REPORT) Tj
+72 660 Td (Submitted in partial fulfillment of the requirements for academic project evaluation.) Tj
+72 637 Td (Submitted by: __________________________) Tj
+72 614 Td (Register Number: _______________________) Tj
+72 591 Td (Department: Computer Science and Engineering / Computer Applications) Tj
+72 568 Td (Institution: ___________________________) Tj
+72 545 Td (Academic Year: 2025-2026) Tj
+ET
+
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 717 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (CERTIFICATE) Tj
+/F1 11 Tf
+72 706 Td (This is to certify that the project report titled 'Raitha-Varta: Android App) Tj
+72 691 Td (Development using GenAI for Agriculture' is a record of project work carried out by) Tj
+72 676 Td (the student as part of the academic project requirement.) Tj
+72 653 Td (The project demonstrates a full-stack agriculture advisory system consisting of an) Tj
+72 638 Td (Android farmer application, local offline database, backend REST API, and expert) Tj
+72 623 Td (dashboard.) Tj
+72 600 Td (Guide Signature: _______________________) Tj
+72 577 Td (Head of Department: ____________________) Tj
+72 554 Td (Date: _________________________________) Tj
+ET
+
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 579 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (DECLARATION) Tj
+/F1 11 Tf
+72 706 Td (I hereby declare that the project work presented in this report titled 'Raitha-Varta') Tj
+72 691 Td (is developed for academic purposes. The project is based on the problem of converting) Tj
+72 676 Td (lengthy agricultural advisories into short, actionable farming tips and enabling) Tj
+72 661 Td (expert support for farmers.) Tj
+72 638 Td (The implementation, design details, testing notes, and conclusions included in this) Tj
+72 623 Td (report are prepared based on the developed project modules.) Tj
+ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 506 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (ACKNOWLEDGEMENT) Tj
+/F1 11 Tf
+72 706 Td (I express my sincere gratitude to my project guide, department faculty, and) Tj
+72 691 Td (institution for their support and guidance throughout the development of this project.) Tj
+72 668 Td (I also thank my friends and well-wishers for their encouragement. This project helped) Tj
+72 653 Td (me understand Android development, backend APIs, local databases, and the importance) Tj
+72 638 Td (of technology in agriculture.) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1121 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (ABSTRACT) Tj
+/F1 11 Tf
+72 706 Td (Raitha-Varta is a full-stack Android application designed for farmers. Agricultural) Tj
+72 691 Td (advisories are often published as long PDF files or text messages, which may be) Tj
+72 676 Td (difficult for farmers to read quickly in the field. The proposed application converts) Tj
+72 661 Td (advisory information into short flash-card tips that are easy to understand and act) Tj
+72 646 Td (upon.) Tj
+72 623 Td (The Android app displays crop-specific daily tips, supports offline storage using Room) Tj
+72 608 Td (Database, and allows farmers to submit crop or leaf problems with a selected leaf) Tj
+72 593 Td (photo. A Node.js backend provides REST API support, stores expert requests, and) Tj
+72 578 Td (returns advisory outcomes in Kannada and English. A browser-based Expert Dashboard) Tj
+72 563 Td (allows experts to review farmer requests and update bilingual responses.) Tj
+72 540 Td (The project focuses on digital inclusion, precision farming, and fast access to) Tj
+72 525 Td (scientifically guided crop advisory information.) Tj
+ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 579 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (TABLE OF CONTENTS) Tj
+/F1 11 Tf
+72 706 Td (1. Introduction) Tj
+72 683 Td (2. Problem Statement) Tj
+72 660 Td (3. Objectives) Tj
+72 637 Td (4. Existing System and Proposed System) Tj
+72 614 Td (5. System Requirements) Tj
+72 591 Td (6. System Architecture) Tj
+72 568 Td (7. Modules Description) Tj
+72 545 Td (8. Implementation Details) Tj
+72 522 Td (9. Testing) Tj
+72 499 Td (10. Results and Outcomes) Tj
+72 476 Td (11. Advantages) Tj
+72 453 Td (12. Limitations) Tj
+72 430 Td (13. Future Enhancements) Tj
+72 407 Td (14. Conclusion) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 793 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (1. INTRODUCTION) Tj
+/F1 11 Tf
+72 706 Td (Agriculture is one of the most important sectors in India. Farmers require timely and) Tj
+72 691 Td (reliable information about crop care, pest control, weather-based action, and disease) Tj
+72 676 Td (prevention. Many advisory systems provide useful information, but the content is often) Tj
+72 661 Td (lengthy and not suitable for quick field usage.) Tj
+72 638 Td (Raitha-Varta addresses this issue by presenting farming advisories as short, swipeable) Tj
+72 623 Td (flash cards. The application is designed to be simple, high-contrast, and useful for) Tj
+72 608 Td (farmers. It supports Kannada and English guidance and provides an Expert Ask feature) Tj
+72 593 Td (for leaf-photo based advisory support.) Tj
+ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 578 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (2. PROBLEM STATEMENT) Tj
+/F1 11 Tf
+72 706 Td (Agricultural experts and Krishi Vigyana Kendras release crop advisories every week.) Tj
+72 691 Td (These advisories may be long PDF files or text messages. Farmers need short,) Tj
+72 676 Td (actionable tips that are specific to their crop and district.) Tj
+72 653 Td (The project problem is to create an Android application that converts complex) Tj
+72 638 Td (agricultural information into daily one-minute tips and provides a backend-supported) Tj
+72 623 Td (expert consultation feature.) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 688 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (3. OBJECTIVES) Tj
+/F1 11 Tf
+72 706 Td (To develop a Kotlin-based Android app for farmers.) Tj
+72 683 Td (To display daily crop advisory tips using swipeable flash cards.) Tj
+72 660 Td (To provide crop category filters such as Paddy, Arecanut, Coconut, and Tomato.) Tj
+72 637 Td (To store tips offline using Room Database.) Tj
+72 614 Td (To connect the app with a backend REST API using Retrofit.) Tj
+72 591 Td (To allow farmers to submit leaf-photo based Expert Ask requests.) Tj
+72 568 Td (To provide expert outcomes in Kannada and English.) Tj
+72 545 Td (To create a browser-based Expert Dashboard for reviewing and updating farmer requests.) Tj
+ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 739 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (4. EXISTING SYSTEM AND PROPOSED SYSTEM) Tj
+/F1 11 Tf
+72 706 Td (Existing System: Farmers usually receive agricultural information through long) Tj
+72 691 Td (advisories, PDF documents, WhatsApp messages, or verbal communication. These methods) Tj
+72 676 Td (may not be interactive, searchable, or personalized. Expert consultation may also take) Tj
+72 661 Td (time and may not be digitally tracked.) Tj
+72 638 Td (Proposed System: Raitha-Varta provides a mobile-first advisory system. Farmers can) Tj
+72 623 Td (view short tips, filter by crop, submit leaf problems, and receive bilingual outcomes.) Tj
+72 608 Td (The backend stores data and provides an Expert Dashboard for advisory management.) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 677 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (5. SYSTEM REQUIREMENTS) Tj
+/F1 11 Tf
+72 706 Td (Hardware Requirements: Android phone or emulator, minimum 4 GB RAM development system,) Tj
+72 691 Td (internet or local network connection for backend testing.) Tj
+72 668 Td (Software Requirements: Android Studio, Kotlin, Gradle, Node.js runtime, Android SDK,) Tj
+72 653 Td (browser for Expert Dashboard.) Tj
+72 630 Td (Android Libraries: ViewPager2, Room Database, Retrofit, Gson Converter, Glide,) Tj
+72 615 Td (AppCompat, Material Components.) Tj
+72 592 Td (Backend Technologies: Node.js HTTP server, REST API, JSON file storage, HTML, CSS, and) Tj
+72 577 Td (JavaScript dashboard.) Tj
+ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 794 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (6. SYSTEM ARCHITECTURE) Tj
+/F1 11 Tf
+72 706 Td (The architecture consists of three major layers: Android Farmer App, Backend API) Tj
+72 691 Td (Server, and Expert Dashboard.) Tj
+72 668 Td (Android Farmer App: Provides UI, flash cards, crop filters, Room offline database,) Tj
+72 653 Td (Retrofit API calls, and leaf-photo selection.) Tj
+72 630 Td (Backend API Server: Provides endpoints for tips, expert requests, and expert replies.) Tj
+72 615 Td (It stores requests in a JSON file for persistence.) Tj
+72 592 Td (Expert Dashboard: Provides a browser interface for experts to view requests and update) Tj
+72 577 Td (Kannada and English outcomes.) Tj
+72 554 Td (Flow: Farmer App -> Backend API -> Expert Dashboard -> Expert Reply -> Stored Outcome.) Tj
+ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 965 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (7. MODULES DESCRIPTION) Tj
+/F1 11 Tf
+72 706 Td (Daily Tips Module: Shows crop advisory cards with image, crop category, district,) Tj
+72 691 Td (weather note, success story, Kannada tip, and English instruction.) Tj
+72 668 Td (Crop Filter Module: Allows farmers to filter tips based on crop categories including) Tj
+72 653 Td (Paddy, Arecanut, Coconut, and Tomato.) Tj
+72 630 Td (Offline Storage Module: Uses Room Database to save tips locally so that farmers can) Tj
+72 615 Td (view advisory cards even when offline.) Tj
+72 592 Td (Expert Ask Module: Allows farmers to enter name, crop, district, problem, and choose a) Tj
+72 577 Td (leaf photo from the device.) Tj
+72 554 Td (Backend API Module: Handles REST endpoints for tips, expert requests, and expert) Tj
+72 539 Td (replies.) Tj
+72 516 Td (Expert Dashboard Module: Enables experts to view farmer requests and save Kannada and) Tj
+72 501 Td (English outcomes.) Tj
+ET
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 1036 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (8. IMPLEMENTATION DETAILS) Tj
+/F1 11 Tf
+72 706 Td (The Android app is implemented in Kotlin using XML layouts. ViewPager2 is used for the) Tj
+72 691 Td (flash-card experience. The TipAdapter binds each farming tip to the card view. Glide) Tj
+72 676 Td (is used for crop images. Room Database is used to store advisory data for offline) Tj
+72 661 Td (access.) Tj
+72 638 Td (Retrofit is used to communicate with the backend. The RetrofitClient connects to the) Tj
+72 623 Td (backend API using the local system IP address. The Expert Ask form uses Android photo) Tj
+72 608 Td (picker support to select a leaf image and sends the selected URI to the backend.) Tj
+72 585 Td (The backend is implemented using Node.js without external npm dependencies. It exposes) Tj
+72 570 Td (REST endpoints and stores Expert Ask data in expert-asks.json. The dashboard page is) Tj
+72 555 Td (served from the backend itself and uses JavaScript fetch calls to display and update) Tj
+72 540 Td (expert outcomes.) Tj
+ET
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 619 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (9. TESTING) Tj
+/F1 11 Tf
+72 706 Td (Unit and functional testing were performed manually for the main features. The app was) Tj
+72 691 Td (tested for loading tips, filtering crop categories, offline Room data display, backend) Tj
+72 676 Td (tip fetching, leaf photo selection, and expert request submission.) Tj
+72 653 Td (Backend testing included GET /api/tips, GET /api/expert-asks, POST /api/expert-asks,) Tj
+72 638 Td (POST /api/expert-asks/:id/reply, and GET /dashboard. The dashboard was verified in the) Tj
+72 623 Td (browser and confirmed to show saved farmer requests.) Tj
+ET
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 35 0 R >>
+endobj
+35 0 obj
+<< /Length 617 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (10. RESULTS AND OUTCOMES) Tj
+/F1 11 Tf
+72 706 Td (The project successfully implements a farmer-facing Android application and) Tj
+72 691 Td (backend-supported advisory system. The app displays daily advisory cards, stores data) Tj
+72 676 Td (offline, and supports expert consultation through a backend API.) Tj
+72 653 Td (The Expert Dashboard improves the project by allowing experts to review submitted) Tj
+72 638 Td (requests and update outcomes in Kannada and English. This makes the system more) Tj
+72 623 Td (complete and closer to a real agriculture advisory platform.) Tj
+ET
+
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 37 0 R >>
+endobj
+37 0 obj
+<< /Length 510 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (11. ADVANTAGES) Tj
+/F1 11 Tf
+72 706 Td (Simple and farmer-friendly interface.) Tj
+72 683 Td (Short actionable crop tips instead of long advisory documents.) Tj
+72 660 Td (Kannada and English support for wider accessibility.) Tj
+72 637 Td (Offline tip viewing through Room Database.) Tj
+72 614 Td (Backend API support for real-time updates.) Tj
+72 591 Td (Expert Dashboard for advisory management.) Tj
+72 568 Td (Persistent JSON storage for submitted expert requests.) Tj
+ET
+
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 39 0 R >>
+endobj
+39 0 obj
+<< /Length 577 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (12. LIMITATIONS) Tj
+/F1 11 Tf
+72 706 Td (The leaf photo is represented using a device URI for demo purposes and is not yet) Tj
+72 691 Td (uploaded as an actual image file to the backend.) Tj
+72 668 Td (The expert advice is partly simulated and requires real agriculture expert validation) Tj
+72 653 Td (for production use.) Tj
+72 630 Td (The backend uses JSON file storage, which is suitable for demos but not ideal for) Tj
+72 615 Td (large-scale deployment.) Tj
+72 592 Td (Authentication is not implemented for the Expert Dashboard.) Tj
+ET
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 41 0 R >>
+endobj
+41 0 obj
+<< /Length 561 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (13. FUTURE ENHANCEMENTS) Tj
+/F1 11 Tf
+72 706 Td (Add real image upload and disease detection support.) Tj
+72 683 Td (Use a cloud database such as Firebase or PostgreSQL.) Tj
+72 660 Td (Add expert login and authentication.) Tj
+72 637 Td (Add push notifications for daily tips and expert replies.) Tj
+72 614 Td (Add weather API integration for district-specific recommendations.) Tj
+72 591 Td (Add voice support for farmers who prefer audio guidance.) Tj
+72 568 Td (Add admin panel for uploading weekly crop advisories.) Tj
+ET
+
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 43 0 R >>
+endobj
+43 0 obj
+<< /Length 667 >>
+stream
+BT
+/F1 18 Tf
+72 742 Td (14. CONCLUSION) Tj
+/F1 11 Tf
+72 706 Td (Raitha-Varta is a useful agriculture advisory application that combines Android) Tj
+72 691 Td (development, offline local storage, backend APIs, and an Expert Dashboard. The project) Tj
+72 676 Td (demonstrates how digital tools can simplify agricultural information and support) Tj
+72 661 Td (farmers with quick, bilingual advisory outcomes.) Tj
+72 638 Td (The system meets the major goals of the project: short daily tips, crop filtering,) Tj
+72 623 Td (Kannada and English information, offline viewing, expert consultation, and) Tj
+72 608 Td (backend-supported advisory management.) Tj
+ET
+
+endstream
+endobj
+xref
+0 44
+0000000000 65535 f 
+0000000010 00000 n 
+0000000062 00000 n 
+0000000256 00000 n 
+0000000329 00000 n 
+0000000458 00000 n 
+0000001069 00000 n 
+0000001198 00000 n 
+0000001969 00000 n 
+0000002098 00000 n 
+0000002731 00000 n 
+0000002862 00000 n 
+0000003423 00000 n 
+0000003554 00000 n 
+0000004731 00000 n 
+0000004862 00000 n 
+0000005496 00000 n 
+0000005627 00000 n 
+0000006475 00000 n 
+0000006606 00000 n 
+0000007239 00000 n 
+0000007370 00000 n 
+0000008113 00000 n 
+0000008244 00000 n 
+0000009038 00000 n 
+0000009169 00000 n 
+0000009901 00000 n 
+0000010032 00000 n 
+0000010881 00000 n 
+0000011012 00000 n 
+0000012032 00000 n 
+0000012163 00000 n 
+0000013255 00000 n 
+0000013386 00000 n 
+0000014060 00000 n 
+0000014191 00000 n 
+0000014863 00000 n 
+0000014994 00000 n 
+0000015559 00000 n 
+0000015690 00000 n 
+0000016322 00000 n 
+0000016453 00000 n 
+0000017069 00000 n 
+0000017200 00000 n 
+trailer
+<< /Size 44 /Root 1 0 R >>
+startxref
+17922
+%%EOF
